@@ -173,7 +173,7 @@ class Helpers:
                 buttons.append((title, ilink, 'url'))
         layouts = [
             buttons[i: i + 3]
-            for i in range(0, len(buttons), 3)
+            for i in range(0, len(buttons), 2)
         ]
         layouts.append(
             [
