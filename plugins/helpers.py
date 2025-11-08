@@ -100,7 +100,7 @@ class Helpers:
             layouts.append(
                 [
                     (
-                        'Try Again',
+                        'ᴄᴏʙᴀ ʟᴀɢɪ',
                         self.urlstr(message.command[1]),
                         'url',
                     ),
@@ -226,98 +226,98 @@ decorator = Decorator()
 class Markup:
     HOME = [
         [
-            ('Generate Controller', 'set-gen'),
+            ('ɢᴇɴᴇʀᴀᴛᴇ ᴄᴏɴᴛʀᴏʟʟᴇʀ', 'set-gen'),
         ],
         [
-            ('Start Text', 'set-strtmsg'),
-            ('Force Text', 'set-frcmsg'),
+            ('sᴛᴀʀᴛ ᴛᴇxᴛ', 'set-strtmsg'),
+            ('ғᴏʀᴄᴇ ᴛᴇxᴛ', 'set-frcmsg'),
         ],
         [
-            ('Protect Content', 'set-prtctcntnt'),
+            ('ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ', 'set-prtctcntnt'),
         ],
         [
-            ('Admin IDs', 'set-admnids'),
-            ('FSub IDs', 'set-fscids'),
+            ('ᴀᴅᴍɪɴ ɪᴅ', 'set-admnids'),
+            ('ғsᴜʙ ɪᴅ', 'set-fscids'),
         ],
         [
-            ('Monitor and Stats', 'home-stats'),
+            ('ᴍᴏɴɪᴛᴏʀ ᴀɴᴅ sᴛᴀᴛs', 'home-stats'),
         ],
         [
-            ('Close', 'home-close'),
+            ('ᴄʟᴏsᴇ', 'home-close'),
         ],
     ]
 
     STATS = [
         [
-            ('Broadcast', 'stats-bc'),
+            ('ʙʀᴏᴀᴅᴄᴀsᴛ', 'stats-bc'),
         ],
         [
-            ('Ping', 'stats-ping'),
-            ('Users', 'stats-users'),
+            ('ᴘɪɴɢ', 'stats-ping'),
+            ('ᴜsᴇʀs', 'stats-users'),
         ],
         [
-            ('« Back', 'home-home'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
         ],
     ]
 
     BACK = [
         [
-            ('« Back', 'home-home'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
         ],
     ]
 
     SET_ADMIN = [
         [
-            ('Add User', 'add-admnids'),
-            ('Del User', 'del-admnids'),
+            ('ᴀᴅᴅ ᴜsᴇʀ', 'add-admnids'),
+            ('ᴅᴇʟ ᴜsᴇʀ', 'del-admnids'),
         ],
         [
-            ('« Back', 'home-home'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
         ],
     ]
 
     SET_FSUB = [
         [
-            ('Add Chat', 'add-fscids'),
-            ('Del Chat', 'del-fscids'),
+            ('ᴀᴅᴅ ᴄʜᴀᴛ', 'add-fscids'),
+            ('ᴅᴇʟ ᴄʜᴀᴛ', 'del-fscids'),
         ],
         [
-            ('« Back', 'home-home'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
         ],
     ]
 
     SET_PROTECT = [
         [
-            ('« Back', 'home-home'),
-            ('Change', 'change-prtctcntnt'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
+            ('ᴄʜᴀɴɢᴇ', 'change-prtctcntnt'),
         ],
     ]
 
     SET_GENERATOR = [
         [
-            ('« Back', 'home-home'),
-            ('Change', 'change-gen'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
+            ('ᴄʜᴀɴɢᴇ', 'change-gen'),
         ],
     ]
 
     SET_START = [
         [
-            ('« Back', 'home-home'),
-            ('Change', 'change-strtmsg'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
+            ('ᴄʜᴀɴɢᴇ', 'change-strtmsg'),
         ],
     ]
 
     SET_FORCE = [
         [
-            ('« Back', 'home-home'),
-            ('Change', 'change-frcmsg'),
+            ('« ʙᴀᴄᴋ', 'home-home'),
+            ('ᴄʜᴀɴɢᴇ', 'change-frcmsg'),
         ],
     ]
 
     BROADCAST_STATS = [
         [
-            ('Stop', 'bc-abort'),
-            ('Ref.', 'bc-refresh'),
+            ('sᴛᴏᴘ', 'bc-abort'),
+            ('ʀᴇғ.', 'bc-refresh'),
         ],
     ]
 
