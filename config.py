@@ -16,13 +16,13 @@ class Config:
         'Join first, then press the Try Again button.'
     )
 
-    API_ID = int(os.environ.get('API_ID', 2040))
-    API_HASH = os.environ.get('API_HASH', 'b18441a1ff607e10a989891a5462e627')
-    OWNER_ID = int(os.environ.get('OWNER_ID', 487936750))
+    API_ID = int(os.environ.get('API_ID', 30829384))
+    API_HASH = os.environ.get('API_HASH', 'c4f503fe8c2a44601b756c8b0c2da48c')
+    OWNER_ID = int(os.environ.get('OWNER_ID', 432134084))
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://root:passwd@mongo')
 
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
-    DATABASE_ID = int(os.environ.get('DATABASE_ID', ''))
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '8051091732:AAHOJfHskb4mQ2rPi3tLJEQW_NXhMMrMgFM')
+    DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1003127909125'))
 
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
