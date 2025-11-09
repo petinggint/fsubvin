@@ -172,7 +172,7 @@ class Helpers:
                 ilink = self.cacheids[cid]['ilink']
                 buttons.append((title, ilink, 'url'))
         layouts = [
-            buttons[i: i + 3]
+            buttons[i: i + 2]
             for i in range(0, len(buttons), 2)
         ]
         layouts.append(
